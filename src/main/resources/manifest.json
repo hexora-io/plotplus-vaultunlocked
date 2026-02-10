@@ -1,0 +1,21 @@
+{
+  "Group": "Hexora",
+  "Name": "PlotPlus-VaultUnlocked",
+  "Version": "${project.version}",
+  "Description": "VaultUnlocked economy integration for PlotPlus",
+  "Authors": [
+    {
+      "Name": "Hexora"
+    }
+  ],
+  "Website": "https://hexora.io",
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hexora:PlotPlus": "*",
+    "TheNewEconomy:VaultUnlocked": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "Main": "io.hexora.plotplus.vaultunlocked.PlotPlusVaultUnlockedPlugin"
+}
