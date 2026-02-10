@@ -1,6 +1,6 @@
 # PlotPlus-VaultUnlocked
 
-Economy bridge between [PlotPlus](https://github.com/Hexora/hytale-plot-plus) and [VaultUnlocked](https://www.curseforge.com/hytale/mods/vaultunlocked) for Hytale servers.
+Economy bridge between [PlotPlus](https://www.curseforge.com/hytale/mods/plotplus) and [VaultUnlocked](https://www.curseforge.com/hytale/mods/vaultunlocked) for Hytale servers.
 
 This plugin allows PlotPlus to use any economy system registered through VaultUnlocked for plot claim costs and refunds.
 
@@ -36,4 +36,4 @@ This means you can use **any** VaultUnlocked-compatible economy plugin with Plot
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/hexora-io/plotplus-vaultunlocked/blob/main/LICENSE)
