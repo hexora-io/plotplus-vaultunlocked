@@ -5,6 +5,8 @@ plugins {
 group = "io.hexora.plotplus"
 version = "1.0.0"
 
+val serverVersion = "2026.02.17-255364b8e"
+
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(25))
@@ -24,7 +26,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.hypixel.hytale:Server:2026.02.06-aa1b071c2")
+    compileOnly("com.hypixel.hytale:Server:$serverVersion")
     compileOnly("io.hexora.plotplus:plotplus:2.0.0-beta.4")
     compileOnly("net.cfh.vault:VaultUnlocked:2.18.3")
     compileOnly("org.jetbrains:annotations:26.0.2")
@@ -32,7 +34,7 @@ dependencies {
 
 tasks.processResources {
     filesMatching("manifest.json") {
-        expand("project" to mapOf("version" to project.version))
+        expand("project" to mapOf("version" to project.version, "serverVersion" to serverVersion))
     }
 }
 

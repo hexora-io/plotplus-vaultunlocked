@@ -9,7 +9,7 @@
     }
   ],
   "Website": "https://hexora.io",
-  "ServerVersion": "*",
+  "ServerVersion": "${project.serverVersion}",
   "Dependencies": {
     "Hexora:PlotPlus": "*",
     "TheNewEconomy:VaultUnlocked": "*"
