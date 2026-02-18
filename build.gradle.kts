@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "io.hexora.plotplus"
-version = "1.0.0"
+version = "1.0.1"
 
 val serverVersion = "2026.02.17-255364b8e"
 
